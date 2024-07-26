@@ -471,17 +471,19 @@
           </div>
         <div class="input-box-comment">
           <label class="modal-label" for="user-comment">Comment
-            <textarea class="modal-textarea" type="text" id="user-comment" name="user-comment" placeholder="Text input"
-              required>
-            </textarea>
           </label>
+          <textarea class="modal-textarea" type="text" id="user-comment" name="user-comment" placeholder="Text input"
+            required>
+          </textarea>
         </div>
       </form>
+
       <div class="modal-checkbox-container">
-        <input type="checkbox" name="agree-terms" id="agree">
-        <label class="modal-checkbox-label" for="agree">I accept the terms and conditions of the</label> <a
+        <input class="visually-hidden" type="checkbox" name="user-privacy" id="user-privacy" value="true">
+        <label class="modal-checkbox-label" for="user-privacy">I accept the terms and conditions of the <span
           class="modal-privacy">Privacy
-          Policy</a>
+          Policy</span>
+        </label>
       </div>
       <button class="modal-send-btn" type="submit">Send</button>
 
