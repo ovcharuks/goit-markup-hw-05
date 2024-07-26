@@ -432,28 +432,56 @@
         </svg>
       </button>
       <p class="modal-title">Leave your contacts and we will call you back</p>
+
       <form class="modal-form">
-        <label class="modal-label" for="user-name">Name
-          <input class="modal-label-input" type="text" id="user-name" name="user-name" placeholder="" required />
-        </label>
-        <label class="modal-label" for="user-phone">Phone
-          <input class="modal-label-input" type="tel" id="user-phone" name="user-email" placeholder="Your email"
-            required />
-        </label>
-        <label class="modal-label" for="user-email">Email
-          <input class="modal-label-input" type="email" id="user-email" name="user-email" placeholder="Your email"
-            required />
-        </label>
-        <label class="modal-label" for="user-text">Comment
-          <textarea class="modal-textarea" type="text" id="user-text" name="user-text" placeholder="Your Message"
-            required>
-          </textarea>
-        </label>
+        <div class="label-box">
+          <label class="modal-label" for="user-name">Name
+          </label>
+          <div class="input-box">
+            <input class="modal-label-input" type="text" id="user-name" name="user-name" placeholder="Your name" required />
+<svg class="input-logo" width="18" height="24">
+  <use href="./images/icons.svg#icon-person-black"></use>
+</svg>
+          </div>
+        </div>
+        <div class="label-box">
+          <label class="modal-label" for="user-phone">Phone
+          </label>
+
+          <div class="input-box">
+                        <input class="modal-label-input" type="tel" id="user-phone" name="user-email" placeholder="Your phone"
+              required />
+              <svg class="input-logo" width="18" height="24">
+                <use href="./images/icons.svg#icon-Vector"></use>
+              </svg>
+          </div>
+                  </div>
+        <div class="label-box">
+          <label class="modal-label" for="user-email">Email
+          </label>
+          
+          <div class="input-box">
+            <input class="modal-label-input" type="email" id="user-email" name="user-email" placeholder="Your email"
+              required />
+              <svg class="input-logo" width="18" height="24">
+                <use href="./images/icons.svg#icon-email-black"></use>
+              </svg>
+          </div>
+        
+          </div>
+        <div class="input-box-comment">
+          <label class="modal-label" for="user-comment">Comment
+            <textarea class="modal-textarea" type="text" id="user-comment" name="user-comment" placeholder="Text input"
+              required>
+            </textarea>
+          </label>
+        </div>
       </form>
       <div class="modal-checkbox-container">
         <input type="checkbox" name="agree-terms" id="agree">
-        <label class="modal-checkbox-label" for="agree">I accept the terms and conditions of the</label> <a class="modal-privacy">Privacy
-            Policy</a>
+        <label class="modal-checkbox-label" for="agree">I accept the terms and conditions of the</label> <a
+          class="modal-privacy">Privacy
+          Policy</a>
       </div>
       <button class="modal-send-btn" type="submit">Send</button>
 
