@@ -553,7 +553,6 @@ width: 264px;
 height: 40px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background-color: transparent;
-margin-right: 24px;
 padding-left: 16px;
 
 font-size: 12px;
@@ -689,8 +688,7 @@ color: #fff;
 }
 
 .modal-form {
-  margin-left: 39px;
-  margin-bottom: 16px;
+
 }
 
 .modal-label {
@@ -774,7 +772,7 @@ color: #fff;
   font-size: 12px;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
-margin-bottom: 16px;
+
 }
 
 .modal-checkbox-container {
